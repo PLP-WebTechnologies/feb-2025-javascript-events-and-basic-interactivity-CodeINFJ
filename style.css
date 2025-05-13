@@ -1,0 +1,39 @@
+body {
+  background: #fef6f9;
+  font-family: 'Poppins', sans-serif;
+  color: #3e3e3e;
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  background-color: #ff90b3;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff70a3;
+}
+
+.gallery img {
+  border-radius: 16px;
+  width: 250px;
+  height: auto;
+  margin-top: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-controls {
+  margin-top: 12px;
+}
+
+.style-tip {
+  margin-top: 30px;
+}
